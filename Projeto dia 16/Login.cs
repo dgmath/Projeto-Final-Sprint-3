@@ -97,6 +97,7 @@ namespace Projeto_dia_16
                         Console.ForegroundColor = ConsoleColor.Blue;
                         int codigoProd = int.Parse(Console.ReadLine());
                         produto.Deletar(codigoProd);
+                        Console.WriteLine($"O Produto com o código {produto.Codigo} foi removido com sucesso!");
                         break;
                     case "4":
                         marca.Cadastrar();
